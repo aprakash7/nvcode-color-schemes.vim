@@ -1,11 +1,11 @@
 information:
-  name: nvcode
+  name: behave
   background: dark
-  author: "Christian Chiarulli <chrisatmachine@gmail.com>"
+  author: "Akshay Prakash <github.com/aprakash7>"
 
 palette:
-  fg: "#ABB2BF"
-  bg: "#1E1E1E"
+  fg: "#D2D8E1"
+  bg: "#2C333D"
 
   red: "#D16969"
   error_red: "#F44747"
