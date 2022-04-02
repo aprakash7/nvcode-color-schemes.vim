@@ -14,7 +14,7 @@ hi Error guifg=#808691 ctermfg=102 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
 hi LineNr guifg=#7dcbc4 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
 hi NonText guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Normal guifg=#808691 ctermfg=102 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=NONE
+hi Normal guifg=#d2d8e1 ctermfg=253 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi Pmenu guifg=#808691 ctermfg=102 guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#808691 ctermfg=102 guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi PmenuSel guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
