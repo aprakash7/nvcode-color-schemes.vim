@@ -6,33 +6,28 @@ information:
 palette:
   fg: "#D2D8E1"
   bg: "#2C333D"
+  
+  grey: "#808691"
+  white: "#CED1CF"
+  yellow: "#CAB8A3"
+  purple: "#C9A9F9"
+  dull: "#f0d879"
+  red: "#ec9076"
+  green: "#61D29D"
+  bermuda: "#7dcbc4"
+  blue: "#5ab8e5"
+  
 
-  red: "#D16969"
-  error_red: "#F44747"
-  green: "#608B4E"
-  light_green: "#B5CEA8"
-  yellow: "#DCDCAA"
-  dark_yellow: "#D7BA7D"
-  orange: "#CE9178"
-  grey_blue: "#729CB3"
-  blue: "#569CD6"
-  light_blue: "#9CDCFE"
-  vivid_blue: "#4FC1FF"
-  purple: "#C586C0"
-  cyan: "#4EC9B0"
-  white: "#ABB2BF"
-  black: "#1E1E1E"
-  line_grey: "#5C6370"
-  gutter_fg_grey: "#858585"
+  utter_fg_grey: "#858585"
   cursor_grey: "#2C323C"
   visual_grey: "#3E4452"
   menu_grey: "#282C34"
   special_grey: "#3B4048"
   vertsplit: "#3E4452"
-  warning_orange: "#ff8800"
+  warning_sat_orange: "#ff8800"
   info_yellow: "#FFCC66"
   search_blue: "#1da1f2"
-  git_green: "#81B88B"
+  git_grey: "#81B88B"
   symlink: "#29B8D8"
   executable: "#23D18B"
   tabfill: "#252526"
@@ -45,20 +40,20 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "green - i"
-  Constant: "yellow"
-  String: "orange"
-  Character: "orange"
-  Number: "light_green"
-  Boolean: "blue"
-  Float: "light_green"
+  Comment: "grey - i"
+  Constant: "purple"
+  String: "red"
+  Character: "red"
+  Number: "purple"
+  Boolean: "purple"
+  Float: "purple"
   Identifier: "blue"
-  Function: "yellow"
+  Function: "green"
   Statement: "purple"
-  Conditional: "purple"
+  Conditional: "blue"
   Repeat: "purple"
   Label: "light_blue"
-  Operator: "purple"
+  Operator: "bermuda"
   Keyword: "blue"
   Exception: "purple"
   PreProc: "yellow"
@@ -85,7 +80,7 @@ highlights:
   CursorColumn: "- cursor_grey"
   CursorLine: "- cursor_grey"
   Directory: "blue"
-  DiffAdd: "black green"
+  DiffAdd: "black grey"
   DiffChange: "yellow - u"
   DiffDelete: "black red"
   DiffText: "black yellow"
@@ -125,7 +120,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSComment: "green"
+  TSComment: "grey"
   TSError: "error_red"
   TSPunctDelimiter: "white"
   TSPunctBracket: "white"
@@ -139,9 +134,9 @@ highlights:
   TSString: "orange"
   TSStringEscape: "dark_yellow"
   TSCharacter: "orange"
-  TSNumber: "light_green"
+  TSNumber: "light_grey"
   TSBoolean: "blue"
-  TSFloat: "light_green"
+  TSFloat: "light_grey"
   TSAnnotation: "yellow"
   TSAttribute: "cyan"
   TSNamespace: "cyan"
@@ -183,7 +178,7 @@ highlights:
   # Tags
   TSTag: "blue"
   TSTagDelimiter: "line_grey"
-  TSQueryLinterError: "warning_orange"
+  TSQueryLinterError: "warning_sat_orange"
   # -- END Treesitter --
 
   # -- START Languages --
@@ -209,9 +204,9 @@ highlights:
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "line_grey"
   markdownBold: "dark_yellow - b"
-  markdownCode: "green"
-  markdownCodeBlock: "green"
-  markdownCodeDelimiter: "green"
+  markdownCode: "grey"
+  markdownCodeBlock: "grey"
+  markdownCodeDelimiter: "grey"
   markdownH1: "blue"
   markdownH2: "blue"
   markdownH3: "blue"
@@ -259,8 +254,8 @@ highlights:
   # -- END Easymotion --
 
   # -- START Startify --
-  StartifyNumber: "light_green"
-  StartifySelect: "green"
+  StartifyNumber: "light_grey"
+  StartifySelect: "grey"
   StartifyBracket: "blue"
   StartifySpecial: "cyan"
   StartifyVar: "blue"
@@ -269,21 +264,21 @@ highlights:
   StartifySlash: "blue"
   StartifyHeader: "light_blue"
   StartifySection: "purple"
-  StartifyFooter: "green"
+  StartifyFooter: "grey"
   # -- END Startify --
   # -- START WhichKey --
   WhichKey: "purple"
-  WhichKeySeperator: "green"
+  WhichKeySeperator: "grey"
   WhichKeyGroup: "vivid_blue"
   WhichKeyDesc: "blue"
   # -- END WhichKey --
   #
   # old stuff
-  diffAdded: "green"
+  diffAdded: "grey"
   diffRemoved: "red"
   diffFileId: "blue - br"
   diffFile: "special_grey"
-  diffNewFile: "green"
+  diffNewFile: "grey"
   diffOldFile: "red"
   # ToolbarLine: ". darkgray"
   # ToolbarButton: "suvagray - r"
@@ -300,12 +295,12 @@ highlights:
   LspDiagnosticsUnderlineHint: "grey_blue"
 
   LspDiagnosticsSignError: "error_red"
-  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignWarning: "warning_sat_orange"
   LspDiagnosticsSignInformation: "info_yellow"
   LspDiagnosticsSignHint: "vivid_blue"
 
   LspDiagnosticsVirtualTextError: "error_red"
-  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextWarning: "warning_sat_orange"
   LspDiagnosticsVirtualTextInformation: "info_yellow"
   LspDiagnosticsVirtualTextHint: "vivid_blue"
 
@@ -319,12 +314,12 @@ highlights:
   MatchParenCur: "- - u"
 
   NvimTreeImageFile: "purple"
-  NvimTreeGitDirty: "git_green"
-  NvimTreeGitDeleted: "git_green"
-  NvimTreeGitStaged: "git_green"
-  NvimTreeGitMerge: "git_green"
-  NvimTreeGitRenamed: "git_green"
-  NvimTreeGitNew: "git_green"
+  NvimTreeGitDirty: "git_grey"
+  NvimTreeGitDeleted: "git_grey"
+  NvimTreeGitStaged: "git_grey"
+  NvimTreeGitMerge: "git_grey"
+  NvimTreeGitRenamed: "git_grey"
+  NvimTreeGitNew: "git_grey"
   NvimTreeIndentMarker: "line_grey"
   NvimTreeSymlink: "symlink"
   NvimTreeFolderIcon: "blue"
@@ -357,7 +352,7 @@ highlights:
   IndentBlanklineContextChar: "indentlinehighlight"                     
 
 
-  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
+  # terminal: "bg red grey yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
   # Ignore
@@ -373,13 +368,13 @@ highlights:
   # ErrorMsg: "red - br"
   # WarningMsg: "orange - br"
   # ModeMsg: "yellow - br"
-  # MoreMsg: "green - br"
+  # MoreMsg: "grey - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
    
   # VimWiki
   VimwikiHeader1: "orange - b"
-  VimwikiHeader2: "green - b"
+  VimwikiHeader2: "grey - b"
   VimwikiHeader3: "blue - b"
   VimwikiHeader4: "cyan - b"
   VimwikiHeader5: "dark_yellow - b"
