@@ -272,10 +272,10 @@ highlights:
   EasyMotionShade: ""
 
   # -- START Signify --
-  SignifySignAdd: "nord14"
-  SignifySignChange: "nord13"
-  SignifySignChangeDelete: "nord11"
-  SignifySignDelete: "nord11"
+  #SignifySignAdd: "nord14"
+  #SignifySignChange: "nord13"
+  #SignifySignChangeDelete: "nord11"
+  #SignifySignDelete: "nord11"
 
   # -- Sneak
   Sneak: "nord0 nord13 u" 

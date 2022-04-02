@@ -211,10 +211,6 @@ hi EasyMotionTarget guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=bold c
 hi EasyMotionTarget2First guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2Second guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignifySignAdd guifg=#ec9076 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignifySignChange guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignifySignChangeDelete guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignifySignDelete guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Sneak guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
 hi SneakScope guifg=#eceff4 ctermfg=255 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi SneakLabel guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
