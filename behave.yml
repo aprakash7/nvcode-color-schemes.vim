@@ -7,21 +7,21 @@ palette:
   fg: "#D2D8E1"
   bg: "#2C333D"
 
-  nord0: "#5AB8E5" # blue
-  nord1: "#CED1CF" # white 
-  nord2: "#CAB8a3" # yellow
-  nord3: "#7DCBC4" # cyan
-  nord4: "#808691" # grey
-  nord5: "#F0D879" # dull yellow
+  nord0: "#5AB8E5" 
+  nord1: "#CED1CF" 
+  nord2: "#CAB8a3"
+  nord3: "#7DCBC4"
+  nord4: "#808691"
+  nord5: "#F0D879"
   nord6: "#ECEFF4"
   nord7: "#8FBCBB"
-  nord8: "#61D29D" # green 
-  nord9: "#C9A9F9"  # purple
+  nord8: "#61D29D"
+  nord9: "#C9A9F9"
   nord10: "#5E81AC"
   nord11: "#BF616A"
   nord12: "#D08770"
   nord13: "#EBCB8B"
-  nord14: "#EC9076" # red
+  nord14: "#EC9076"
   nord15: "#B48EAD"
   line_grey: "#5C6370"
   cursor_grey: "#2C323C"
