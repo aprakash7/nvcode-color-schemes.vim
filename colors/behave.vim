@@ -14,7 +14,7 @@ hi Error guifg=#808691 ctermfg=102 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
 hi LineNr guifg=#7dcbc4 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
 hi NonText guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Normal guifg=#ffffff ctermfg=231 guibg=#d2d8e1 ctermbg=253 gui=NONE cterm=NONE
+hi Normal guifg=#2c333d ctermfg=236 guibg=#d2d8e1 ctermbg=253 gui=NONE cterm=NONE
 hi Pmenu guifg=#808691 ctermfg=102 guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#808691 ctermfg=102 guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi PmenuSel guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
@@ -26,8 +26,8 @@ hi SpellLocal guifg=#f0d879 ctermfg=222 guibg=#5ab8e5 ctermbg=74 gui=underline c
 hi SpellRare guifg=#eceff4 ctermfg=255 guibg=#5ab8e5 ctermbg=74 gui=underline cterm=underline
 hi Visual guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
-hi QuickFixLine guifg=#ffffff ctermfg=231 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
-hi Terminal guifg=#eceff4 ctermfg=255 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi QuickFixLine guifg=#2c333d ctermfg=236 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
+hi Terminal guifg=#eceff4 ctermfg=255 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
 hi healthError guifg=#bf616a ctermfg=131 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthSuccess guifg=#ec9076 ctermfg=210 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthWarning guifg=#ebcb8b ctermfg=222 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
@@ -212,7 +212,7 @@ hi EasyMotionTarget2First guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=
 hi EasyMotionTarget2Second guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Sneak guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
-hi SneakScope guifg=#eceff4 ctermfg=255 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
+hi SneakScope guifg=#eceff4 ctermfg=255 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
 hi SneakLabel guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
 hi SneakLabelMask guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyNumber guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
