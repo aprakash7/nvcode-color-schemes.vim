@@ -4,8 +4,8 @@ information:
   author: "Akshay Prakash <akshayprakash.0201@gmail.com>"
 
 palette:
-  bg: "#2C333D"
   fg: "#D2D8E1"
+  bg: "#2C333D"
 
   nord0: "#5AB8E5" # blue
   nord1: "#CED1CF" # white 
