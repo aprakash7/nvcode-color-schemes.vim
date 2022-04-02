@@ -36,7 +36,7 @@ highlights:
   LineNr: "nord3"
   MatchParen: "nord8 nord3"
   NonText: "nord2"
-  Normal: "fg bg"
+  Normal: "bg fg"
   Pmenu: "nord4 nord2"
   PmenuSbar: "nord4 nord2"
   PmenuSel: "nord8 nord3"
