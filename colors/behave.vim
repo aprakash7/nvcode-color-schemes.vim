@@ -26,8 +26,8 @@ hi SpellLocal guifg=#f0d879 ctermfg=222 guibg=#5ab8e5 ctermbg=74 gui=underline c
 hi SpellRare guifg=#eceff4 ctermfg=255 guibg=#5ab8e5 ctermbg=74 gui=underline cterm=underline
 hi Visual guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
-hi QuickFixLine guifg=#2c333d ctermfg=236 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
-hi Terminal guifg=#eceff4 ctermfg=255 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
+hi QuickFixLine guifg=#ffffff ctermfg=231 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
+hi Terminal guifg=#eceff4 ctermfg=255 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi healthError guifg=#bf616a ctermfg=131 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthSuccess guifg=#ec9076 ctermfg=210 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthWarning guifg=#ebcb8b ctermfg=222 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
@@ -216,7 +216,7 @@ hi SignifySignChange guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE 
 hi SignifySignChangeDelete guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignifySignDelete guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Sneak guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
-hi SneakScope guifg=#eceff4 ctermfg=255 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
+hi SneakScope guifg=#eceff4 ctermfg=255 guibg=#ffffff ctermbg=231 gui=NONE cterm=NONE
 hi SneakLabel guifg=#5ab8e5 ctermfg=74 guibg=#ebcb8b ctermbg=222 gui=underline cterm=underline
 hi SneakLabelMask guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyNumber guifg=#b48ead ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
