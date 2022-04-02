@@ -1,393 +1,337 @@
 information:
   name: behave
   background: dark
-  author: "Akshay Prakash <github.com/aprakash7>"
+  author: "Akshay Prakash <akshayprakash.0201@gmail.com>"
 
 palette:
-  fg: "#D2D8E1"
-  bg: "#2C333D"
+  fg: "#2C333D"
+  bg: "#D2D8E1"
 
-  red: "#D16969"
-  green: "#61d29d"
-  error_red: "#F44747"
-  grey: "#808691"
-  light_green: "#B5CEA8"
-  yellow: "#DCDCAA"
-  dark_yellow: "#D7BA7D"
-  orange: "#CE9178"
-  grey_blue: "#729CB3"
-  blue: "#569CD6"
-  light_blue: "#9CDCFE"
-  vivid_blue: "#4FC1FF"
-  purple: "#C586C0"
-  cyan: "#4EC9B0"
-  white: "#ABB2BF"
-  black: "#1E1E1E"
+  nord0: "#5AB8E5" # blue
+  nord1: "#CED1CF" # white 
+  nord2: "#CAB8a3" # yellow
+  nord3: "#7DCBC4" # cyan
+  nord4: "#808691" # grey
+  nord5: "#F0D879" # dull yellow
+  nord6: "#ECEFF4"
+  nord7: "#8FBCBB"
+  nord8: "#61D29D" # green 
+  nord9: "#C9A9F9"  # purple
+  nord10: "#5E81AC"
+  nord11: "#BF616A"
+  nord12: "#D08770"
+  nord13: "#EBCB8B"
+  nord14: "#EC9076" # red
+  nord15: "#B48EAD"
   line_grey: "#5C6370"
-  gutter_fg_grey: "#858585"
   cursor_grey: "#2C323C"
-  visual_grey: "#3E4452"
-  menu_grey: "#282C34"
   special_grey: "#3B4048"
-  vertsplit: "#3E4452"
-  warning_orange: "#ff8800"
-  info_yellow: "#FFCC66"
-  search_blue: "#1da1f2"
-  git_green: "#81B88B"
-  symlink: "#29B8D8"
-  executable: "#23D18B"
-  tabfill: "#252526"
-  bg_inactive: "#2E2E2E"
-  cursor_fg: "#515052"
-  cursor_bg: "#AEAFAD"
-  indentlinehighlight: "#707070"
-
 
 highlights:
-  Normal: "fg bg"
+  # Editor
+  ColorColumn: "- nord1"
+  Cursor: "nord0 nord4"
+  CursorLine: "- nord1"
+  Error: "nord4 nord11"
+  LineNr: "nord3"
+  MatchParen: "nord8 nord3"
+  NonText: "nord2"
+  Normal: "nord4 nord0"
+  Pmenu: "nord4 nord2"
+  PmenuSbar: "nord4 nord2"
+  PmenuSel: "nord8 nord3"
+  PmenuThumb: "nord8 nord3"
+  SpecialKey: "nord3"
+  SpellBad: "nord11 nord0 u"
+  SpellCap: "nord11 nord0 u"
+  SpellLocal: "nord5 nord0 u"
+  SpellRare: "nord6 nord0 u"
+  Visual: "- nord2"
+  VisualNOS: "- nord2"
+  QuickFixLine: "bg nord13"
+  Terminal: "nord6 bg"
 
-  Comment: "grey - i"
-  Constant: "yellow"
-  String: "orange"
-  Character: "orange"
-  Number: "light_green"
-  Boolean: "blue"
-  Float: "light_green"
-  Identifier: "blue"
-  Function: "green"
-  Statement: "purple"
-  Conditional: "purple"
-  Repeat: "purple"
-  Label: "light_blue"
-  Operator: "purple"
-  Keyword: "blue"
-  Exception: "purple"
-  PreProc: "yellow"
-  Include: "purple"
-  Define: "purple"
-  Title: "cyan"
-  Macro: "purple"
-  PreCondit: "light_blue"
-  Type: "light_blue"
-  StorageClass: "light_blue"
-  Structure: "yellow"
-  Typedef: "yellow"
-  Special: "blue - i"
-  SpecialComment: "line_grey"
-  Error: "error_red - br"
-  Todo: "purple - bi"
-  Underlined: "cyan . u"
-  Cursor: "cursor_fg cursor_bg"
+  # Neovim checkhealth
+  healthError: "nord11 nord1"
+  healthSuccess: "nord14 nord1"
+  healthWarning: "nord13 nord1"
 
-  ColorColumn: "- cursor_grey"
-  CursorLineNr: "white - b"
-  SignColumn: "- bg"
-  Conceal: "line_grey"
-  CursorColumn: "- cursor_grey"
-  CursorLine: "- cursor_grey"
-  Directory: "blue"
-  DiffAdd: "black green"
-  DiffChange: "yellow - u"
-  DiffDelete: "black red"
-  DiffText: "black yellow"
-  ErrorMsg: "error_red"
-  VertSplit: "vertsplit"
-  Folded: "line_grey"
-  FoldColumn: ""
-  IncSearch: "- line_grey"
-  LineNr: "gutter_fg_grey"
-  NonText: "special_grey"
-  Pmenu: "white menu_grey"
-  PmenuSel: "black blue"
-  PmenuSbar: "- special_grey"
-  PmenuThumb: "- white"
-  Question: "purple"
-  QuickFixLine: "- line_grey"
-  Search: "- line_grey"
-  SpecialKey: "special_grey"
-  SpellBad: "error_red - u"
-  SpellCap: "dark_yellow"
-  SpellLocal: "dark_yellow"
-  SpellRare: "dark_yellow"
-  StatusLine: "white cursor_grey"
-  StatusLineNC: "line_grey"
-  StatusLineTerm: "white cursor_grey"
-  StatusLineTermNC: "cursor_grey"
-  TabLine: "line_grey"
-  TabLineSel: "white"
-  TabLineFill: "- tabfill"
-  Terminal: "white black"
-  Visual: "- visual_grey"
-  VisualNOS: "visual_grey"
-  WarningMsg: "yellow"
-  WildMenu: "black blue"
-  EndOfBuffer: "black"
-  
+  # Gutter
+  CursorColumn: "- nord1"
+  CursorLineNr: "nord4"
+  Folded: "nord3 nord0"
+  FoldColumn: "nord3 nord0"
+  SignColumn: "nord1 nord0"
+
+  # Navigation
+  Directory: "nord8"
+
+  # Prompt/Status
+  EndOfBuffer: "nord1"
+  ErrorMsg: "nord4 nord11"
+  ModeMsg: "nord4"
+  MoreMsg: "nord8"
+  Question: "nord4"
+  StatusLine: "nord6 nord3"
+  StatusLineNC: "nord4 nord3"
+  StatusLineTerm: "nord8 nord3"
+  StatusLineTermNC: "nord4 nord3"
+  WarningMsg: "nord0 nord13"
+  WildMenu: "nord8 nord1"
+
+  # Search (using high contrast search)
+  IncSearch: "nord0 nord13 u"
+  Search: "nord0 nord13"
+
+  # Tabs
+  TabLine: "nord4 nord1"
+  TabLineFill: "nord4 nord1"
+  TabLineSel: "nord8 nord3"
+
+  # Window
+  Title: "nord4"
+  VertSplit: "nord2 nord0"
+
+  # Language Base Groups
+  Boolean: "nord9" # set
+  Character: "nord14" # set
+  Comment: "nord4 - i" #set
+  Conditional: "nord0"
+  Constant: "nord9"   #set 
+  Define: "nord5"
+  Delimeter: "nord6"
+  Exception: "nord8"
+  Float: "nord9" # set
+  Function: "nord8" # set
+  Identifier: "nord4"
+  Include: "nord5"
+  Keyword: "nord0" # set
+  Label: "nord9"
+  Number: "nord9" # set
+  Operator: "nord3" # set
+  PreProc: "nord9"
+  Repeat: "nord9"
+  Special: "nord10"
+  SpecialChar: "nord13"
+  SpecialComment: "nord5 - i" 
+  Statement: "nord15"
+  StorageClass: "nord9"
+  String: "nord14" # set
+  Structure: "nord2"
+  Tag: "nord4"
+  Todo: "nord13"
+  Type: "nord9"
+  Typedef: "nord9"
+  Macro: "nord9"
+  PreCondit: "nord9"
+
+  # Git
+  DiffAdd: "nord14 nord1"
+  DiffChange: "nord13 nord1"
+  DiffDelete: "nord11 nord1"
+  DiffText: "nord9 nord1"
+  diffAdded: "nord14 nord1"
+  diffChanged: "nord13 nord1"
+  diffRemoved: "nord11 nord1"
+  diffFileId: "nord10 - br"
+  diffFile: "special_grey"
+  diffNewFile: "nord14"
+  diffOldFile: "nord11"
+  gitconfigVariable: "nord7"
+  debugPc: "- nord7"
+  debugBreakpoint: "nord11 - r"
 
   # -- Start Treesitter --
   # Misc
-  TSComment: "grey"
-  TSError: "error_red"
-  TSPunctDelimiter: "white"
-  TSPunctBracket: "white"
-  TSPunctSpecial: "white"
+  TSError: "nord11 - u"
+  TSPunctDelimiter: "nord9"
+  TSPunctBracket: "nord6"
+  TSPunctSpecial: "nord6"
   # Constants
-  TSConstant: "yellow"
-  TSConstBuiltin: "blue"
-  # Not sure about this guy
-  TSConstMacro: "cyan"
-  TSStringRegex: "orange"
-  TSString: "orange"
-  TSStringEscape: "dark_yellow"
-  TSCharacter: "orange"
-  TSNumber: "light_green"
-  TSBoolean: "blue"
-  TSFloat: "light_green"
-  TSAnnotation: "yellow"
-  TSAttribute: "cyan"
-  TSNamespace: "cyan"
+  TSConstant: "nord9" # set
+  TSConstBuiltin: "nord9" # set
+  TSConstMacro: "nord7"
+  TSStringRegex: "nord9"
+  TSString: "nord14" # set
+  TSStringEscape: "nord8"
+  TSCharacter: "nord14" # set
+  TSNumber: "nord9" # set
+  TSBoolean: "nord9"  # set
+  TSFloat: "nord9"  # set
+  TSAnnotation: "nord12"
+  TSAttribute: "nord5"
+  TSNamespace: "nord2"
   # Functions
-  TSFuncBuiltin: "green"
-  TSFunction: "green"
-  TSFuncMacro: "green"
-  TSParameter: "light_blue"
-  TSParameterReference: "light_blue"
-  TSMethod: "yellow"
-  TSField: "light_blue"
-  TSProperty: "light_blue"
-  TSConstructor: "cyan"
+  TSFuncBuiltin: "nord8"  # set
+  TSFunction: "nord8"  # set
+  TSFuncMacro: "nord8" # set
+  TSParameter: "nord5" # set
+  TSParameterReference: "nord9"
+  TSMethod: "nord9" # set
+  TSField: "nord8" # set
+  TSProperty: "nord9" # set
+  TSConstructor: "nord5" # set
   # Keywords
-  TSConditional: "purple"
-  TSRepeat: "purple"
-  TSLabel: "light_blue"
-  # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue"
-  TSKeywordFunction: "purple"
-  TSKeywordOperator: "blue"
-  TSOperator: "white"
-  TSException: "purple"
-  TSType: "cyan"
-  TSTypeBuiltin: "blue"
+  TSConditional: "nord0" # set
+  TSRepeat: "nord15"
+  TSLabel: "nord8"
+  TSKeyword: "nord0"
+  TSKeywordFunction: "nord0"
+  TSKeywordOperator: "nord3"
+  TSOperator: "nord3"
+  TSException: "nord9"
+  TSType: "nord5"
+  TSTypeBuiltin: "nord9"
   TSStructure: "#FF00FF"
-  TSInclude: "purple"
+  TSInclude: "nord2"
   # Variable
-  TSVariable: "light_blue"
-  TSVariableBuiltin: "light_blue"
+  TSVariable: "nord2"
+  TSVariableBuiltin: "nord2"
   # Text
-  TSText: "#FFFF00"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
-  TSTitle: "#FFFF00"
-  TSLiteral: "orange"
-  TSURI: "- - u"
+  TSText: "nord14"
+  TSStrong: "nord14"
+  TSEmphasis: "nord14"
+  TSUnderline: "nord14"
+  TSTitle: "nord4"
+  TSLiteral: "nord4 - i"
+  TSURI: "nord4"
   # Tags
-  TSTag: "blue"
+  TSTag: "nord9"
   TSTagDelimiter: "line_grey"
-  TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: "dark_yellow"
-  htmlBold: "dark_yellow - b"
-  htmlEndTag: "white"
-  htmlH1: "blue"
-  htmlH2: "blue"
-  htmlH3: "blue"
-  htmlH4: "blue"
-  htmlH5: "blue"
-  htmlH6: "blue"
-  htmlItalic: "purple - i"
-  htmlLink: "cyan - u"
-  htmlSpecialChar: "dark_yellow"
-  htmlSpecialTagName: "blue"
-  htmlTag: "white"
-  htmlTagN: "blue"
-  htmlTagName: "blue"
-  htmlTitle: "white"
+  htmlArg: "nord8"
+  htmlBold: "nord8 - b"
+  htmlEndTag: "nord6"
+  htmlH1: "nord10"
+  htmlH2: "nord10"
+  htmlH3: "nord10"
+  htmlH4: "nord10"
+  htmlH5: "nord10"
+  htmlH6: "nord10"
+  htmlItalic: "nord15 - i"
+  htmlLink: "nord7 - u"
+  htmlSpecialChar: "nord8"
+  htmlSpecialTagName: "nord10"
+  htmlTag: "nord6"
+  htmlTagN: "nord10"
+  htmlTagName: "nord10"
+  htmlTitle: "nord6"
 
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "line_grey"
-  markdownBold: "dark_yellow - b"
-  markdownCode: "green"
-  markdownCodeBlock: "green"
-  markdownCodeDelimiter: "green"
-  markdownH1: "blue"
-  markdownH2: "blue"
-  markdownH3: "blue"
-  markdownH4: "blue"
-  markdownH5: "blue"
-  markdownH6: "blue"
-  markdownHeadingDelimiter: "red"
+  markdownBold: "nord8 - b"
+  markdownCode: "nord14"
+  markdownCodeBlock: "nord14"
+  markdownCodeDelimiter: "nord14"
+  markdownH1: "nord10"
+  markdownH2: "nord10"
+  markdownH3: "nord10"
+  markdownH4: "nord10"
+  markdownH5: "nord10"
+  markdownH6: "nord10"
+  markdownHeadingDelimiter: "nord11"
   markdownHeadingRule: "line_grey"
-  markdownId: "purple"
-  markdownIdDeclaration: "blue"
-  markdownIdDelimiter: "purple"
-  markdownItalic: "purple - i"
-  markdownLinkDelimiter: "purple"
-  markdownLinkText: "blue"
-  markdownListMarker: "red"
-  markdownOrderedListMarker: "red"
+  markdownId: "nord15"
+  markdownIdDeclaration: "nord10"
+  markdownIdDelimiter: "nord15"
+  markdownItalic: "nord15 - i"
+  markdownLinkDelimiter: "nord15"
+  markdownLinkText: "nord10"
+  markdownListMarker: "nord11"
+  markdownOrdenord11ListMarker: "nord11"
   markdownRule: "line_grey"
-  markdownUrl: "cyan - u"
-  # -- END Languages --
-
+  markdownUrl: "nord7 - u"
 
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
-  CocExplorerBufferRoot: "cyan"
-  CocExplorerFileRoot: "cyan"
+  CocExplorerBufferRoot: "nord7"
+  CocExplorerFileRoot: "nord7"
   CocExplorerBufferFullPath: "line_grey"
   CocExplorerFileFullPath: "line_grey"
-  CocExplorerBufferReadonly: "purple"
-  CocExplorerBufferModified: "purple"
-  CocExplorerBufferNameVisible: "orange"
-  CocExplorerFileReadonly: "purple"
-  CocExplorerFileModified: "purple"
+  CocExplorerBufferReadonly: "nord15"
+  CocExplorerBufferModified: "nord15"
+  CocExplorerBufferNameVisible: "nord12"
+  CocExplorerFileReadonly: "nord15"
+  CocExplorerFileModified: "nord15"
   CocExplorerFileHidden: "line_grey"
-  CocExplorerHelpLine: "purple"
-  # -- END CoC --
+  CocExplorerHelpLine: "nord15"
+  CocWarningHighlight: "nord13"
+  CocErrorHighlight: "nord11"
+  CocWarningSign: "nord13"
+  CocErrorSign: "nord11"
+  CocInfoSign: "nord8"
+  CocHintSign: "nord10"
 
   # -- START Easymotion --
-  EasyMotionTarget: "error_red - b"
-  EasyMotionTarget2First: "error_red - b"
-  EasyMotionTarget2Second: "error_red - b"
+  EasyMotionTarget: "nord11 - b"
+  EasyMotionTarget2First: "nord11 - b"
+  EasyMotionTarget2Second: "nord11 - b"
   EasyMotionShade: ""
-  # EasyMotionIncSearch:
-  # EasyMotionMoveHL:
 
-  # -- END Easymotion --
+  # -- START Signify --
+  SignifySignAdd: "nord14"
+  SignifySignChange: "nord13"
+  SignifySignChangeDelete: "nord11"
+  SignifySignDelete: "nord11"
+
+  # -- Sneak
+  Sneak: "nord0 nord13 u" 
+  SneakScope: "nord6 bg"
+  SneakLabel: "nord0 nord13 u" 
+  SneakLabelMask: "nord13" 
 
   # -- START Startify --
-  StartifyNumber: "light_green"
-  StartifySelect: "green"
-  StartifyBracket: "blue"
-  StartifySpecial: "cyan"
-  StartifyVar: "blue"
-  StartifyPath: "blue"
-  StartifyFile: "cyan"
-  StartifySlash: "blue"
-  StartifyHeader: "light_blue"
-  StartifySection: "purple"
-  StartifyFooter: "green"
-  # -- END Startify --
+  StartifyNumber: "nord15"
+  StartifySelect: "nord14"
+  StartifyBracket: "nord10"
+  StartifySpecial: "nord7"
+  StartifyVar: "nord10"
+  StartifyPath: "nord10"
+  StartifyFile: "nord7"
+  StartifySlash: "nord10"
+  StartifyHeader: "nord14"
+  StartifySection: "nord15"
+  StartifyFooter: "nord14"
+
   # -- START WhichKey --
-  WhichKey: "purple"
-  WhichKeySeperator: "green"
-  WhichKeyGroup: "vivid_blue"
-  WhichKeyDesc: "blue"
-  # -- END WhichKey --
-  #
-  # old stuff
-  diffAdded: "green"
-  diffRemoved: "red"
-  diffFileId: "blue - br"
-  diffFile: "special_grey"
-  diffNewFile: "green"
-  diffOldFile: "red"
-  # ToolbarLine: ". darkgray"
-  # ToolbarButton: "suvagray - r"
-  debugPc: "- cyan"
-  debugBreakpoint: "red - r"
+  WhichKey: "nord15"
+  WhichKeySeperator: "nord14"
+  WhichKeyGroup: "nord10"
 
-  GitSignsAdd: "#587C0C"
-  GitSignsChange: "#0C7D9D"
-  GitSignsDelete: "#94151B"
+  # GitGutter
+  GitGutterAdd: "nord14"
+  GitGutterChange: "nord13"
+  GitGutterChangeDelete: "nord11"
+  GitGutterDelete: "nord11"
+  
+  # Fugitive
+  gitcommitDiscardedFile: "nord11"
+  gitcommitSelectedFile: "nord14"
+  gitcommitUntrackedFile: "nord11"
 
-  # LspDiagnosticsUnderlineError: "error_red"
-  # LspDiagnosticsUnderlineWarning: "orange"
-  # LspDiagnosticsUnderlineInformation: "yellow"
-  LspDiagnosticsUnderlineHint: "grey_blue"
+  # Nvim LSP
+  LSPDiagnosticsWarning: "nord13"
+  LspDiagnosticsDefaultError: "nord11"
+  LspDiagnosticsInformation: "nord8"
+  LspDiagnosticsHint: "nord10"
+  LspDiagnosticsUnderlineWarning: "nord13"
+  LspDiagnosticsUnderlineError: "nord11"
+  LspDiagnosticsUnderlineInformation: "nord8"
+  LspDiagnosticsUnderlineHint: "nord10"
 
-  LspDiagnosticsSignError: "error_red"
-  LspDiagnosticsSignWarning: "warning_orange"
-  LspDiagnosticsSignInformation: "info_yellow"
-  LspDiagnosticsSignHint: "vivid_blue"
-
-  LspDiagnosticsVirtualTextError: "error_red"
-  LspDiagnosticsVirtualTextWarning: "warning_orange"
-  LspDiagnosticsVirtualTextInformation: "info_yellow"
-  LspDiagnosticsVirtualTextHint: "vivid_blue"
-
-
-  QuickScopePrimary: "#00C7DF - u"
-  QuickScopeSecondary: "#eF5F70 - u"
-
-  MatchWord: "- - u"
-  MatchParen: "- - u"
-  MatchWordCur: "- - u"
-  MatchParenCur: "- - u"
-
-  NvimTreeImageFile: "purple"
-  NvimTreeGitDirty: "git_green"
-  NvimTreeGitDeleted: "git_green"
-  NvimTreeGitStaged: "git_green"
-  NvimTreeGitMerge: "git_green"
-  NvimTreeGitRenamed: "git_green"
-  NvimTreeGitNew: "git_green"
-  NvimTreeIndentMarker: "line_grey"
-  NvimTreeSymlink: "symlink"
-  NvimTreeFolderIcon: "blue"
-  NvimTreeRootFolder: "fg - b"
-  NvimTreeExecFile: "executable"
-  NvimTreeSpecialFile: "info_yellow"
-
-  BufferCurrent: "fg bg"
-  BufferCurrentIndex: "blue bg"
-  BufferCurrentMod: "fg bg"
-  BufferCurrentSign: "blue bg"
-  BufferCurrentTarget: "red bg b"
-
-  BufferVisible: "fg bg"
-  BufferVisibleIndex: "fg bg"
-  BufferVisibleMod: "fg bg"
-  BufferVisibleSign: "fg bg"
-  BufferVisibleTarget: "red bg b"
-
-  BufferInactive: "gutter_fg_grey bg_inactive"
-  BufferInactiveIndex: "gutter_fg_grey bg_inactive"
-  BufferInactiveMod: "gutter_fg_grey bg_inactive"
-  BufferInactiveSign: "gutter_fg_grey bg_inactive"
-  BufferInactiveTarget: "red bg_inactive b"
-
-  # BufferTabpages: "blue bg_inactive b"
-  # BufferTabpageFill: "gutter_fg_grey bg_inactive"
-
-  CodiVirtualText: "#6395EC"
-  IndentBlanklineContextChar: "indentlinehighlight"                     
-
-
-  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
-  # -- Other junk you can define --
-  # Debug
-  # Ignore
-  # Tag
-  # Delimiter
-  # SpecialChar
-  # Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
-  # CursorIM", {}) " like Cursor, but used when in IME mode
-  # FoldColumn", {}) " 'foldcolumn'
-  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-  # MoreMsg", {}) " more-prompt
-  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-  # ErrorMsg: "red - br"
-  # WarningMsg: "orange - br"
-  # ModeMsg: "yellow - br"
-  # MoreMsg: "green - br"
-  # Question: "cyan - br"
-  # Directory: "blue - b"
-   
   # VimWiki
-  VimwikiHeader1: "orange - b"
-  VimwikiHeader2: "green - b"
-  VimwikiHeader3: "blue - b"
-  VimwikiHeader4: "cyan - b"
-  VimwikiHeader5: "dark_yellow - b"
-  VimwikiHeader6: "purple - b"
-  VimwikiLink: "vivid_blue"
+  VimwikiHeader1: "nord12 - b"
+  VimwikiHeader2: "nord14 - b"
+  VimwikiHeader3: "nord10 - b"
+  VimwikiHeader4: "nord7 - b"
+  VimwikiHeader5: "nord13 - b"
+  VimwikiHeader6: "nord15 - b"
+  VimwikiLink: "nord8"
   VimwikiHeaderChar: "line_grey"
-  VimwikiHR: "yellow"
-  VimwikiList: "orange"
-  VimwikiTag: "orange"
-  VimwikiMarkers: "line_grey"
+  VimwikiHR: "nord13"
+  VimwikiList: "nord12"
+  VimwikiTag: "nord12"
+  VimwikiMarkers: "line_grey" 
