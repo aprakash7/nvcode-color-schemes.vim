@@ -183,7 +183,7 @@ highlights:
   TSType: "nord5"
   TSTypeBuiltin: "nord9"
   TSStructure: "#FF00FF"
-  TSInclude: "nord2"
+  TSInclude: "nord0"
   # Variable
   TSVariable: "nord2"
   TSVariableBuiltin: "nord2"

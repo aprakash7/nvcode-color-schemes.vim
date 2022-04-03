@@ -137,7 +137,7 @@ hi TSException guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSType guifg=#f0d879 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStructure guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSInclude guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSInclude guifg=#5ab8e5 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariable guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariableBuiltin guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=#ec9076 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
