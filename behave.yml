@@ -167,8 +167,8 @@ highlights:
   TSFuncMacro: "nord8" # set
   TSParameter: "nord5" # set
   TSParameterReference: "nord9"
-  TSMethod: "nord9" # set
-  TSField: "nord8" # set
+  TSMethod: "nord8" # set
+  TSField: "nord1" # set
   TSProperty: "nord9" # set
   TSConstructor: "nord5" # set
   # Keywords
@@ -183,10 +183,10 @@ highlights:
   TSType: "nord5"
   TSTypeBuiltin: "nord9"
   TSStructure: "#FF00FF"
-  TSInclude: "nord0"
+  TSInclude: "nord3"
   # Variable
-  TSVariable: "nord2"
-  TSVariableBuiltin: "nord2"
+  TSVariable: "nord1" # set
+  TSVariableBuiltin: "nord1"
   # Text
   TSText: "nord14"
   TSStrong: "nord14"
