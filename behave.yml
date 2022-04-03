@@ -120,7 +120,7 @@ highlights:
   Structure: "nord2"
   Tag: "nord4"
   Todo: "nord13"
-  Type: "nord9"
+  Type: "nord2" #set
   Typedef: "nord9"
   Macro: "nord9"
   PreCondit: "nord9"

@@ -82,7 +82,7 @@ hi String guifg=#ec9076 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Tag guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Type guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Type guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
