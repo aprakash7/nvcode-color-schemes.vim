@@ -66,7 +66,7 @@ hi Exception guifg=#61d29d ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Float guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#61d29d ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Include guifg=#f0d879 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Include guifg=#5ab8e5 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#5ab8e5 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
