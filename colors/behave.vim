@@ -15,10 +15,10 @@ hi LineNr guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#eceff4 ctermfg=255 guibg=#eceff4 ctermbg=255 gui=NONE cterm=NONE
 hi NonText guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#d2d8e1 ctermfg=253 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
-hi Pmenu guifg=#2c323c ctermfg=236 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
-hi PmenuSbar guifg=#2c323c ctermfg=236 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
-hi PmenuSel guifg=#61d29d ctermfg=79 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
-hi PmenuThumb guifg=#61d29d ctermfg=79 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
+hi Pmenu guifg=#2c323c ctermfg=236 guibg=#5c6370 ctermbg=241 gui=NONE cterm=NONE
+hi PmenuSbar guifg=#eceff4 ctermfg=255 guibg=#5c6370 ctermbg=241 gui=NONE cterm=NONE
+hi PmenuSel guifg=#61d29d ctermfg=79 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
+hi PmenuThumb guifg=#61d29d ctermfg=79 guibg=#5e81ac ctermbg=67 gui=NONE cterm=NONE
 hi SpecialKey guifg=#7dcbc4 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#bf616a ctermfg=131 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=NONE
 hi SpellCap guifg=#bf616a ctermfg=131 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=NONE
