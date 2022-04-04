@@ -34,18 +34,18 @@ highlights:
   CursorLine: "- nord4"
   Error: "nord4 nord14" #new
   LineNr: "nord4"
-  MatchParen: "special_grey special_grey"
+  MatchParen: "nord6 nord6"
   NonText: "nord2"
   Normal: "fg bg"
-  Pmenu: "nord4 nord2"
-  PmenuSbar: "nord4 nord2"
-  PmenuSel: "nord8 nord3"
-  PmenuThumb: "nord8 nord3"
+  Pmenu: "cursor_grey special_grey"
+  PmenuSbar: "cursor_grey special_grey"
+  PmenuSel: "nord8 special_grey"
+  PmenuThumb: "nord8 special_grey"
   SpecialKey: "nord3"
-  SpellBad: "nord11 nord0 u"
-  SpellCap: "nord11 nord0 u"
-  SpellLocal: "nord5 nord0 u"
-  SpellRare: "nord6 nord0 u"
+  SpellBad: "nord11 nord0"
+  SpellCap: "nord11 nord0"
+  SpellLocal: "nord5 nord0"
+  SpellRare: "nord6 nord0"
   Visual: "- nord4"
   VisualNOS: "- nord4"
   QuickFixLine: "bg nord13"
@@ -59,20 +59,20 @@ highlights:
   # Gutter
   CursorColumn: "- nord1"
   CursorLineNr: "nord4"
-  Folded: "nord3 nord0"
-  FoldColumn: "nord3 nord0"
-  SignColumn: "nord1 nord0"
+  Folded: "nord3 cursor_grey"
+  FoldColumn: "nord3 cursor_grey"
+  SignColumn: "nord1 cursor_grey"
 
   # Navigation
   Directory: "nord8"
 
   # Prompt/Status
-  EndOfBuffer: "nord1"
+  EndOfBuffer: "special_grey"
   ErrorMsg: "nord4 special_grey"
   ModeMsg: "nord4"
   MoreMsg: "nord8"
   Question: "nord4"
-  StatusLine: "nord6 nord3"
+  StatusLine: "nord6 nord14"
   StatusLineNC: "nord4 nord3"
   StatusLineTerm: "nord8 nord3"
   StatusLineTermNC: "nord4 nord3"
@@ -84,8 +84,8 @@ highlights:
   Search: "nord0 nord13"
 
   # Tabs
-  TabLine: "nord4 nord1"
-  TabLineFill: "nord4 nord1"
+  TabLine: "nord4 cursor_grey"
+  TabLineFill: "nord4 special_grey"
   TabLineSel: "nord8 nord3"
 
   # Window
