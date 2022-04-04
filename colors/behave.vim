@@ -8,11 +8,11 @@ endif
 let g:colors_name='behave'
 
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
-hi Cursor guifg=#5ab8e5 ctermfg=74 guibg=#808691 ctermbg=102 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
-hi Error guifg=#808691 ctermfg=102 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
-hi LineNr guifg=#7dcbc4 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
+hi Cursor guifg=#808691 ctermfg=102 guibg=#808691 ctermbg=102 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#808691 ctermbg=102 gui=NONE cterm=NONE
+hi Error guifg=#808691 ctermfg=102 guibg=#ec9076 ctermbg=210 gui=NONE cterm=NONE
+hi LineNr guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi MatchParen guifg=#3b4048 ctermfg=238 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi NonText guifg=#cab8a3 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#d2d8e1 ctermfg=253 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
 hi Pmenu guifg=#808691 ctermfg=102 guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
@@ -24,10 +24,10 @@ hi SpellBad guifg=#bf616a ctermfg=131 guibg=#5ab8e5 ctermbg=74 gui=underline cte
 hi SpellCap guifg=#bf616a ctermfg=131 guibg=#5ab8e5 ctermbg=74 gui=underline cterm=underline
 hi SpellLocal guifg=#f0d879 ctermfg=222 guibg=#5ab8e5 ctermbg=74 gui=underline cterm=underline
 hi SpellRare guifg=#eceff4 ctermfg=255 guibg=#5ab8e5 ctermbg=74 gui=underline cterm=underline
-hi Visual guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
-hi VisualNOS guifg=NONE ctermfg=NONE guibg=#cab8a3 ctermbg=181 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#808691 ctermbg=102 gui=NONE cterm=NONE
+hi VisualNOS guifg=NONE ctermfg=NONE guibg=#808691 ctermbg=102 gui=NONE cterm=NONE
 hi QuickFixLine guifg=#2c333d ctermfg=236 guibg=#ebcb8b ctermbg=222 gui=NONE cterm=NONE
-hi Terminal guifg=#eceff4 ctermfg=255 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
+hi Terminal guifg=#5e81ac ctermfg=67 guibg=#2c333d ctermbg=236 gui=NONE cterm=NONE
 hi healthError guifg=#bf616a ctermfg=131 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthSuccess guifg=#ec9076 ctermfg=210 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi healthWarning guifg=#ebcb8b ctermfg=222 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
@@ -38,7 +38,7 @@ hi FoldColumn guifg=#7dcbc4 ctermfg=116 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=
 hi SignColumn guifg=#ced1cf ctermfg=252 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=NONE
 hi Directory guifg=#61d29d ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#ced1cf ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ErrorMsg guifg=#808691 ctermfg=102 guibg=#bf616a ctermbg=131 gui=NONE cterm=NONE
+hi ErrorMsg guifg=#808691 ctermfg=102 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi ModeMsg guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#61d29d ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Question guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -54,7 +54,7 @@ hi TabLine guifg=#808691 ctermfg=102 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NO
 hi TabLineFill guifg=#808691 ctermfg=102 guibg=#ced1cf ctermbg=252 gui=NONE cterm=NONE
 hi TabLineSel guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
 hi Title guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VertSplit guifg=#cab8a3 ctermfg=181 guibg=#5ab8e5 ctermbg=74 gui=NONE cterm=NONE
+hi VertSplit guifg=#3b4048 ctermfg=238 guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi Boolean guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#ec9076 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -100,7 +100,7 @@ hi diffOldFile guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi gitconfigVariable guifg=#8fbcbb ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi debugPc guifg=NONE ctermfg=NONE guibg=#8fbcbb ctermbg=109 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi TSError guifg=#bf616a ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi TSError guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#c9a9f9 ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctBracket guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctSpecial guifg=#eceff4 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

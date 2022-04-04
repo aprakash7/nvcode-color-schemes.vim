@@ -30,11 +30,11 @@ palette:
 highlights:
   # Editor
   ColorColumn: "- nord1"
-  Cursor: "nord0 nord4"
-  CursorLine: "- nord1"
-  Error: "nord4 nord11"
-  LineNr: "nord3"
-  MatchParen: "nord8 nord3"
+  Cursor: "nord4 nord4"
+  CursorLine: "- nord4"
+  Error: "nord4 nord14" #new
+  LineNr: "nord4"
+  MatchParen: "special_grey special_grey"
   NonText: "nord2"
   Normal: "fg bg"
   Pmenu: "nord4 nord2"
@@ -46,10 +46,10 @@ highlights:
   SpellCap: "nord11 nord0 u"
   SpellLocal: "nord5 nord0 u"
   SpellRare: "nord6 nord0 u"
-  Visual: "- nord2"
-  VisualNOS: "- nord2"
+  Visual: "- nord4"
+  VisualNOS: "- nord4"
   QuickFixLine: "bg nord13"
-  Terminal: "nord6 bg"
+  Terminal: "nord10 bg"
 
   # Neovim checkhealth
   healthError: "nord11 nord1"
@@ -68,7 +68,7 @@ highlights:
 
   # Prompt/Status
   EndOfBuffer: "nord1"
-  ErrorMsg: "nord4 nord11"
+  ErrorMsg: "nord4 special_grey"
   ModeMsg: "nord4"
   MoreMsg: "nord8"
   Question: "nord4"
@@ -90,7 +90,7 @@ highlights:
 
   # Window
   Title: "nord4"
-  VertSplit: "nord2 nord0"
+  VertSplit: "special_grey special_grey"
 
   # Language Base Groups
   Boolean: "nord9" # set
@@ -143,7 +143,7 @@ highlights:
 
   # -- Start Treesitter --
   # Misc
-  TSError: "nord11 - u"
+  TSError: "special_grey "
   TSPunctDelimiter: "nord9"
   TSPunctBracket: "nord6"
   TSPunctSpecial: "nord6"
