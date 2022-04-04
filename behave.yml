@@ -72,7 +72,7 @@ highlights:
   ModeMsg: "nord4"
   MoreMsg: "nord8"
   Question: "nord4"
-  StatusLine: "nord6 nord14"
+  StatusLine: "nord6 nord12"
   StatusLineNC: "nord4 nord3"
   StatusLineTerm: "nord8 nord3"
   StatusLineTermNC: "nord4 nord3"

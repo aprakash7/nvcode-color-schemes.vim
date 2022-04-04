@@ -42,7 +42,7 @@ hi ErrorMsg guifg=#808691 ctermfg=102 guibg=#3b4048 ctermbg=238 gui=NONE cterm=N
 hi ModeMsg guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#61d29d ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Question guifg=#808691 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StatusLine guifg=#eceff4 ctermfg=255 guibg=#ec9076 ctermbg=210 gui=NONE cterm=NONE
+hi StatusLine guifg=#eceff4 ctermfg=255 guibg=#d08770 ctermbg=173 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#808691 ctermfg=102 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#61d29d ctermfg=79 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#808691 ctermfg=102 guibg=#7dcbc4 ctermbg=116 gui=NONE cterm=NONE
